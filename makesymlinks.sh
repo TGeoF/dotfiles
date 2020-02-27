@@ -1,6 +1,6 @@
 #!/bin/bash
 
-ln -sf ~/dotfile/.bashrc ~/.bashrc
-ln -sf ~/dotfile/.vimrc ~/.vimrc
-ln -sf ~/dotfile/.bash_profile ~/.bash_profile
-ln -sf ~/dotfile/.inputrc ~/.inputrc
+ln -sf ~/dotfiles/.bashrc ~/.bashrc
+ln -sf ~/dotfiles/.vimrc ~/.vimrc
+ln -sf ~/dotfiles/.bash_profile ~/.bash_profile
+ln -sf ~/dotfiles/.inputrc ~/.inputrc
