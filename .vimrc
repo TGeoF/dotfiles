@@ -25,6 +25,8 @@ Plugin 'jeffkreeftmeijer/vim-dim'
 Plugin 'scrooloose/syntastic'
 Plugin 'nanotech/jellybeans.vim'
 Plugin 'psliwka/vim-smoothie'
+Plugin 'edkolev/tmuxline.vim'
+Plugin 'edkolev/promptline.vim'
 
 """ END PLUGIN SECTION
 call vundle#end()
@@ -129,10 +131,18 @@ let g:startify_commands = [{'p': ':PluginUpdate'}]
 
 " AIRLINE {{{
 
+<<<<<<< HEAD
 "let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#wordcount#enabled = 1
 "let g:airline_powerline_fonts = 1
 "let g:airline_theme='base16_default'
+=======
+let g:deus_termcolors = 16
+let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#wordcount#enabled = 1
+let g:airline_powerline_fonts = 1
+let g:airline_theme='deus'
+>>>>>>> b0c918f583e34bc609d7a3a9979fa9ff8fdcde32
 
 " }}}
 
