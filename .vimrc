@@ -26,6 +26,7 @@ Plugin 'scrooloose/syntastic'
 Plugin 'nanotech/jellybeans.vim'
 Plugin 'psliwka/vim-smoothie'
 Plugin 'edkolev/tmuxline.vim'
+Plugin 'edkolev/promptline.vim'
 
 """ END PLUGIN SECTION
 call vundle#end()
