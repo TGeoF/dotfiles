@@ -129,10 +129,11 @@ let g:startify_commands = [{'p': ':PluginUpdate'}]
 
 " AIRLINE {{{
 
+let g:deus_termcolors = 16
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#wordcount#enabled = 1
-"let g:airline_powerline_fonts = 1
-let g:airline_theme='base16_default'
+let g:airline_powerline_fonts = 1
+let g:airline_theme='deus'
 
 " }}}
 
