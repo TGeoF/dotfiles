@@ -5,7 +5,7 @@
 [[ $- != *i* ]] && return
 
 source /usr/share/doc/find-the-command/ftc.bash
-source ~/dotfiles/.promptline.sh
+# source ~/dotfiles/.promptline.sh
 
 alias ls='ls --color=auto'
 alias l='ls'
