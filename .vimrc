@@ -66,6 +66,8 @@ set undoreload=10000
 set splitright
 set splitbelow
 set spelllang=en,de
+set ignorecase
+set smartcase
 
 "different behaviour for web stuff
 au BufNewFile,BufRead *.js,*.html,*.css
