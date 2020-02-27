@@ -149,6 +149,7 @@ set foldlevel=99
 
 " }}}
 
+set t_Co=256
 colorscheme jellybeans
 
 " vim:foldmethod=marker:foldlevel=0

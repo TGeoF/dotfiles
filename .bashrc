@@ -1,11 +1,10 @@
 # ~/.bashrc
 
-
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
 source /usr/share/doc/find-the-command/ftc.bash
-# source ~/dotfiles/.promptline.sh
+source ~/dotfiles/.promptline.sh
 
 alias ls='ls --color=auto'
 alias l='ls'
