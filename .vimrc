@@ -26,8 +26,8 @@ Plugin 'scrooloose/syntastic'
 Plugin 'nanotech/jellybeans.vim'
 Plugin 'psliwka/vim-smoothie'
 Plugin 'edkolev/tmuxline.vim'
-Plugin 'edkolev/promptline.vim'
 Plugin 'w0rp/ale'
+Plugin 'sheerun/vim-polyglot'
 
 """ END PLUGIN SECTION
 call vundle#end()
@@ -38,7 +38,7 @@ filetype plugin indent on
 "set t_Co=256
 set wildmenu
 syntax on
-set background=dark
+set background=light
 let python_highlight_all=1
 set tabstop=4
 set shiftwidth=4
@@ -138,7 +138,7 @@ let g:deus_termcolors = 16
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#wordcount#enabled = 1
 let g:airline_powerline_fonts = 1
-let g:airline_theme='base16_default'
+let g:airline_theme='monochrome'
 
 " }}}
 
@@ -150,6 +150,6 @@ set foldlevel=99
 " }}}
 
 set t_Co=256
-colorscheme jellybeans
+colorscheme morning
 
 " vim:foldmethod=marker:foldlevel=0
