@@ -1,5 +1,6 @@
 set nocompatible
 set path+=**
+set encoding=UTF-8
 
 " PLUGINS {{{
 """ VUNDLE
@@ -22,12 +23,11 @@ Plugin 'vim-airline/vim-airline-themes'
 Plugin 'konfekt/fastfold'
 Plugin 'mhinz/vim-startify'
 Plugin 'jeffkreeftmeijer/vim-dim'
-Plugin 'scrooloose/syntastic'
 Plugin 'nanotech/jellybeans.vim'
 Plugin 'psliwka/vim-smoothie'
 Plugin 'edkolev/tmuxline.vim'
-Plugin 'w0rp/ale'
 Plugin 'sheerun/vim-polyglot'
+Plugin 'w0rp/ale'
 
 """ END PLUGIN SECTION
 call vundle#end()
@@ -35,7 +35,6 @@ call vundle#end()
 
 " SETTINGS {{{
 filetype plugin indent on
-"set t_Co=256
 set wildmenu
 syntax on
 set background=light
@@ -138,7 +137,7 @@ let g:deus_termcolors = 16
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#wordcount#enabled = 1
 let g:airline_powerline_fonts = 1
-let g:airline_theme='monochrome'
+let g:airline_theme='jellybeans'
 
 " }}}
 
@@ -149,7 +148,7 @@ set foldlevel=99
 
 " }}}
 
-set t_Co=256
-colorscheme morning
+"set t_Co=256
+colorscheme jellybeans
 
 " vim:foldmethod=marker:foldlevel=0
