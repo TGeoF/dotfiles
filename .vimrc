@@ -28,6 +28,9 @@ Plugin 'psliwka/vim-smoothie'
 Plugin 'edkolev/tmuxline.vim'
 Plugin 'sheerun/vim-polyglot'
 Plugin 'w0rp/ale'
+Plugin 'w0ng/vim-hybrid'
+Plugin 'lifepillar/vim-solarized8'
+Plugin 'altercation/vim-colors-solarized'
 
 """ END PLUGIN SECTION
 call vundle#end()
@@ -137,7 +140,8 @@ let g:deus_termcolors = 16
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#wordcount#enabled = 1
 let g:airline_powerline_fonts = 1
-let g:airline_theme='jellybeans'
+let g:airline_theme='solarized'
+let g:airline#extensions#tabline#formatter = 'unique_tail_improved'
 
 " }}}
 
@@ -149,6 +153,12 @@ set foldlevel=99
 " }}}
 
 "set t_Co=256
-colorscheme jellybeans
+if exists('+termguicolors')
+    let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
+    let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
+    set termguicolors
+endif
+colorscheme solarized8
+set background=dark
 
-" vim:foldmethod=marker:foldlevel=0
+" vi:foldmethod=marker:foldlevel=0
