@@ -20,10 +20,11 @@ Plug 'mhinz/vim-startify'
 Plug 'psliwka/vim-smoothie'
 Plug 'edkolev/tmuxline.vim'
 Plug 'sheerun/vim-polyglot'
-Plug 'w0rp/ale'
+"Plug 'w0rp/ale'
 Plug 'w0ng/vim-hybrid'
 Plug 'lifepillar/vim-solarized8'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'evanleck/vim-svelte'
 
 """ END PLUGIN SECTION
 call plug#end()
@@ -71,7 +72,7 @@ set smartcase
 set hidden
 
 "different behaviour for web stuff
-au BufNewFile,BufRead *.js,*.html,*.css
+au BufNewFile,BufRead *.js,*.html,*.css,*.svelte
     \ set tabstop=2 |
     \ set softtabstop=2 |
     \ set shiftwidth=2
@@ -264,6 +265,9 @@ set foldmethod=syntax
 set foldlevel=99
 
 " }}}
+
+set ttymouse=xterm2
+set mouse=a
 
 "set t_Co=256
 if exists('+termguicolors')
