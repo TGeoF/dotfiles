@@ -72,7 +72,7 @@ set smartcase
 set hidden
 
 "different behaviour for web stuff
-au BufNewFile,BufRead *.js,*.html,*.css,*.svelte
+au BufNewFile,BufRead *.js,*.json,*.html,*.css,*.svelte
     \ set tabstop=2 |
     \ set softtabstop=2 |
     \ set shiftwidth=2
