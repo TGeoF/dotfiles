@@ -9,11 +9,14 @@ call plug#begin()
 
 "Plugin 'gmarik/Vundle.vim' "pacman deals w/ vundle
 Plug 'tpope/vim-fugitive'
+Plug 'pbrisbin/vim-mkdir'
+Plug 'plasticboy/vim-markdown', { 'for': 'markdown' }
 Plug 'tomtom/tcomment_vim' "gc command for comments
 Plug 'tmhedberg/SimpylFold' "makes folding behave more naturally
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
 Plug 'tpope/vim-surround'
+Plug 'Konfekt/FastFold'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'mhinz/vim-startify'
@@ -24,7 +27,8 @@ Plug 'sheerun/vim-polyglot'
 Plug 'w0ng/vim-hybrid'
 Plug 'lifepillar/vim-solarized8'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
-Plug 'evanleck/vim-svelte'
+Plug 'evanleck/vim-svelte', { 'for': 'svelte' }
+Plug 'jkramer/vim-checkbox', { 'for': 'markdown' }
 
 """ END PLUGIN SECTION
 call plug#end()
@@ -96,6 +100,10 @@ nnoremap <C-H> <C-W><C-H>
 
 "fold on space
 nnoremap <space> za
+
+" notes 'wiki'
+
+nnoremap <leader>ww :sp ~/Documents/notes/index.md<CR>
 
 " coc
 inoremap <silent><expr> <TAB>
@@ -250,10 +258,13 @@ let g:startify_commands = [{'p': ':PluginUpdate'}]
 
 " AIRLINE {{{
 
-let g:deus_termcolors = 16
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#wordcount#enabled = 1
-let g:airline_powerline_fonts = 1
+let g:airline_powerline_fonts = 0
+let g:airline_left_sep = ''
+let g:airline_left_alt_sep = '|'
+let g:airline_right_sep = ''
+let g:airline_right_alt_sep = '|'
 let g:airline_theme='solarized'
 let g:airline#extensions#tabline#formatter = 'unique_tail_improved'
 
@@ -261,7 +272,7 @@ let g:airline#extensions#tabline#formatter = 'unique_tail_improved'
 
 " FOLDING {{{
 
-set foldmethod=syntax
+set foldmethod=indent
 set foldlevel=99
 
 " }}}
