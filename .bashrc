@@ -6,6 +6,7 @@
 # source /usr/share/doc/find-the-command/ftc.bash
 # source ~/dotfiles/.promptline.sh
 
+eval "$(thefuck --alias)"
 alias ls='ls --color=auto'
 alias l='ls'
 alias c='cd'
