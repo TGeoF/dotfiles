@@ -252,7 +252,7 @@ let g:syntastic_always_populate_loc_list = 1
 
 let g:startify_fortune_use_unicode = 1
 let g:startify_custom_header = ['Get shit done']
-let g:startify_commands = [{'p': ':PluginUpdate'}]
+let g:startify_commands = [{'p': ':PlugUpdate'}]
 
 " }}}
 
