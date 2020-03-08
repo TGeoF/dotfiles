@@ -103,7 +103,7 @@ nnoremap <space> za
 
 " notes 'wiki'
 
-nnoremap <leader>ww :sp ~/Documents/notes/index.md<CR>
+nnoremap <leader>sd :sp ~/Documents/notes/index.md<CR>
 
 " coc
 inoremap <silent><expr> <TAB>
