@@ -29,6 +29,7 @@ Plug 'lifepillar/vim-solarized8'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'evanleck/vim-svelte', { 'for': 'svelte' }
 Plug 'jkramer/vim-checkbox', { 'for': 'markdown' }
+Plug 'chriskempson/base16-vim'
 
 """ END PLUGIN SECTION
 call plug#end()
@@ -265,7 +266,7 @@ let g:airline_left_sep = ''
 let g:airline_left_alt_sep = '|'
 let g:airline_right_sep = ''
 let g:airline_right_alt_sep = '|'
-let g:airline_theme='solarized'
+let g:airline_theme='base16_eighties'
 let g:airline#extensions#tabline#formatter = 'unique_tail_improved'
 
 " }}}
@@ -286,7 +287,7 @@ if exists('+termguicolors')
     let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
     set termguicolors
 endif
-colorscheme solarized8
+colorscheme base16-eighties
 set background=dark
 
 " vi:foldmethod=marker:foldlevel=0
