@@ -6,6 +6,7 @@
 # source /usr/share/doc/find-the-command/ftc.bash
 # source ~/dotfiles/.promptline.sh
 
+eval "$(fasd --init auto)"
 . /usr/share/fzf/fzf-extras.bash
 
 eval "$(thefuck --alias)"
