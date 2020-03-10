@@ -19,6 +19,7 @@ PS1=' \u@\[$(tput sgr0)\]\[\033[0;32m\]\h:\[$(tput sgr0)\]\[\033[0;36m\][\w]:\[$
 
 export TERM=xterm-256color
 export EDITOR=vim
+export VISUAL=vim
 export HISTCONTROL=ignoredups
 
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
