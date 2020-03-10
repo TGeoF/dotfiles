@@ -13,23 +13,22 @@ Plug 'pbrisbin/vim-mkdir'
 Plug 'plasticboy/vim-markdown', { 'for': 'markdown' }
 Plug 'tomtom/tcomment_vim' "gc command for comments
 Plug 'tmhedberg/SimpylFold' "makes folding behave more naturally
-Plug 'ctrlpvim/ctrlp.vim'
 Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
 Plug 'tpope/vim-surround'
 Plug 'Konfekt/FastFold'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
-Plug 'mhinz/vim-startify'
 Plug 'psliwka/vim-smoothie'
 Plug 'edkolev/tmuxline.vim'
 Plug 'sheerun/vim-polyglot'
-"Plug 'w0rp/ale'
 Plug 'w0ng/vim-hybrid'
 Plug 'lifepillar/vim-solarized8'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'evanleck/vim-svelte', { 'for': 'svelte' }
 Plug 'jkramer/vim-checkbox', { 'for': 'markdown' }
 Plug 'chriskempson/base16-vim'
+Plug 'junegunn/fzf', { 'do': './install --bin' }
+Plug 'junegunn/fzf.vim'
 
 """ END PLUGIN SECTION
 call plug#end()
