@@ -23,7 +23,7 @@ Plug 'edkolev/tmuxline.vim'
 Plug 'sheerun/vim-polyglot'
 Plug 'w0ng/vim-hybrid'
 Plug 'lifepillar/vim-solarized8'
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'neoclide/coc.nvim', { 'branch': 'release' }
 Plug 'evanleck/vim-svelte', { 'for': 'svelte' }
 Plug 'jkramer/vim-checkbox', { 'for': 'markdown' }
 Plug 'chriskempson/base16-vim'
