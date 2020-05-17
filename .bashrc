@@ -7,12 +7,14 @@
 # source ~/dotfiles/.promptline.sh
 
 eval "$(fasd --init auto)"
-. /usr/share/fzf/fzf-extras.bash
 
 eval "$(thefuck --alias)"
 alias ls='ls --color=auto'
 alias l='ls'
+alias ll='ls -lah'
+alias la='ls -lah'
 alias c='cd'
+alias v='vim'
 alias tmux='tmux -u'
 PS1=' \u@\[$(tput sgr0)\]\[\033[0;32m\]\h:\[$(tput sgr0)\]\[\033[0;36m\][\w]:\[$(tput sgr0)\]\[\033[0;37m\] \[$(tput sgr0)\]'
 

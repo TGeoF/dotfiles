@@ -266,7 +266,7 @@ let g:airline_left_sep = ''
 let g:airline_left_alt_sep = '|'
 let g:airline_right_sep = ''
 let g:airline_right_alt_sep = '|'
-let g:airline_theme='base16_eighties'
+let g:airline_theme='base16_default'
 let g:airline#extensions#tabline#formatter = 'unique_tail_improved'
 
 " }}}
@@ -287,7 +287,7 @@ if exists('+termguicolors')
     let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
     set termguicolors
 endif
-colorscheme base16-eighties
+colorscheme base16-default-dark
 set background=dark
 
 " vi:foldmethod=marker:foldlevel=0

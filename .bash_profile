@@ -4,4 +4,4 @@
 
 [[ -f ~/.bashrc ]] && . ~/.bashrc
 
-export PATH="~/.cargo/bin:$PATH"
+#export PATH="~/.cargo/bin:$PATH"
