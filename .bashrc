@@ -16,11 +16,12 @@ alias la='ls -lah'
 alias c='cd'
 alias v='vim'
 alias tmux='tmux -u'
-PS1=' \u@\[$(tput sgr0)\]\[\033[0;32m\]\h:\[$(tput sgr0)\]\[\033[0;36m\][\w]:\[$(tput sgr0)\]\[\033[0;37m\] \[$(tput sgr0)\]'
+PS1='\u@\[$(tput sgr0)\]\[\033[0;32m\]\h:\[$(tput sgr0)\]\[\033[0;36m\][\w]:\[$(tput sgr0)\]\[\033[0;37m\] \[$(tput sgr0)\]'
 
 export TERM=xterm-256color
 export EDITOR=vim
 export VISUAL=vim
 export HISTCONTROL=ignoredups
 
+export PATH="~/.cargo/bin:$PATH"
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash

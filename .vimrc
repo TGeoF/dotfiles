@@ -29,6 +29,7 @@ Plug 'jkramer/vim-checkbox', { 'for': 'markdown' }
 Plug 'chriskempson/base16-vim'
 Plug 'junegunn/fzf', { 'do': './install --bin' }
 Plug 'junegunn/fzf.vim'
+Plug 'ryanoasis/vim-devicons'
 
 """ END PLUGIN SECTION
 call plug#end()
