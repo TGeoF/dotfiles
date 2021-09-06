@@ -59,7 +59,7 @@ alias c='cd'
 alias v='vim'
 alias tmux='tmux -u'
 
-PS1="\[\e[35m\]\`parse_git_branch\`\[\e[m\]\[\e[34;40m\]\w\[\e[m\]\[\e[34m\] $\[\e[m\] "
+PS1="\[\e[35m\]\`parse_git_branch\`\[\e[m\]\[\e[34m\]\w\[\e[m\] \[\e[34m\]\\$\[\e[m\] "
 
 export TERM=xterm-256color
 export EDITOR=vim
@@ -67,3 +67,7 @@ export VISUAL=vim
 export HISTCONTROL=ignoredups
 
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
