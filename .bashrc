@@ -59,7 +59,7 @@ alias c='cd'
 alias v='vim'
 alias tmux='tmux -u'
 
-PS1="\[\e[35m\]\`parse_git_branch\`\[\e[m\]\[\e[34m\]\h:\w\[\e[m\] \[\e[34m\]\\$\[\e[m\] "
+PS1="\[\e[35m\]\`parse_git_branch\`\[\e[m\]\[\e[34m\]\u@\h:\w\[\e[m\] \[\e[34m\]\\$\[\e[m\] "
 
 export TERM=xterm-256color
 export EDITOR=vim
