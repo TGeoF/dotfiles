@@ -65,6 +65,7 @@ export TERM=xterm-256color
 export EDITOR=vim
 export VISUAL=vim
 export HISTCONTROL=ignoredups
+export PATH="/home/tom/.local/bin:$PATH"
 
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
 

@@ -37,6 +37,9 @@ Plug 'fatih/vim-go', { 'for': 'go' }
 Plug 'godlygeek/tabular' "is necessary for and must load before markdown
 Plug 'plasticboy/vim-markdown'
 Plug 'cespare/vim-toml'
+Plug 'othree/html5.vim'
+Plug 'alvan/vim-closetag'
+Plug 'mattn/emmet-vim'
 
 " Git
 
