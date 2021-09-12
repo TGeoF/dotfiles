@@ -66,7 +66,7 @@ set tabstop=4
 set shiftwidth=4
 set softtabstop=4
 set expandtab
-set textwidth=79
+set textwidth=116
 set autoindent
 set fileformat=unix
 set backspace=2
